@@ -1,2 +1,2 @@
 # UWSM
-Unconstrained weakly sumodular minus modular maximization
+Unconstrained weakly submodular minus modular maximization
