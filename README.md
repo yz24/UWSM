@@ -1,6 +1,6 @@
 ## Unconstrained Weakly Submodular minus Modular (UWSM) Maximization Problem
 
-Find a subset of $V$ such that:
+Find a subset $S$ of $V$ such that:
 $$\arg \max_{S \subseteq V} ~ f(S)-c(S)$$
 where $f$ is monotone (weakly) submodular and $c$ is modular
 
