@@ -32,44 +32,4 @@ Graph *createGraphObject(string graphFile) {
 }
 
 
-vector<vector<int>> read_sensor_data(string filename){
-//    read sensor data: beijing
-    std::string eachrow;
-
-    std::ifstream myfile(filename);
-    std::vector<std::vector<int> > MyVector;
-
-    while (std::getline(myfile, eachrow)){
-        std::vector<int> row;
-        std::istringstream is(eachrow);
-        int x;
-        while( is >> x ) {
-            row.push_back(x);
-        }
-        MyVector.push_back(row);
-    }
-
-    return MyVector;
-}
-
-vector<vector<double>> read_Bayesian_data(string filename){
-//    read sensor data: beijing
-    std::string eachrow;
-
-    std::ifstream myfile(filename);
-    std::vector<std::vector<double> > MyVector;
-
-    while (std::getline(myfile, eachrow)){
-        std::vector<double> row;
-        std::istringstream is(eachrow);
-        double x;
-        while( is >> x ) {
-            row.push_back(x);
-        }
-        MyVector.push_back(row);
-    }
-
-    return MyVector;
-}
-
 #endif /* main_utils_h */
