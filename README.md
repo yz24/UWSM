@@ -1,10 +1,10 @@
-## Unconstrained Weakly Submodular minus Modular (UWSM) Maximization Problem
+## Unconstrained Weakly Submodular minus Modular (UWSM) Maximization
 
-Find a subset $S$ of $V$ such that:
+**Problem Statement:** Find a subset $S$ of $V$ such that:
 $$\arg \max_{S \subseteq V} ~ f(S)-c(S)$$
 where $f$ is monotone (weakly) submodular and $c$ is modular
 
-We propose an algorithm solving the above problem with provable theoretical guarantee:
+**Theoretical Results:** We propose an algorithm solving the above problem with provable theoretical guarantee:
 $$f(S)-c(S) \geq \alpha(1-\epsilon)f(OPT)-c(OPT)-\frac{c(OPT)}{\alpha(1-\epsilon)}\log\frac{f(OPT)}{c(OPT)}$$
 
 The running time is ${\mathcal{O}}(\frac{n}{\epsilon}\log \frac{n}{\alpha \epsilon})$, where $\alpha \in (0,1]$ is the submodularity ratio and $\epsilon \in (0,1)$ is the error threshold.
