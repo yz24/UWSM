@@ -15,3 +15,13 @@ A set function $f:2^V \rightarrow \mathbb{R}^{\geq 0}$ is $\alpha$-weakly submod
 $$\sum\nolimits_{u\in T \setminus S} f(u \mid S)  \geq  \alpha \big(f(T)-f(S)\big)$$
 
 Note that $f$ is submodular iff $\alpha=1$.
+
+```
+@inproceedings{zhu2024regularized,
+  title={Regularized Unconstrained Weakly Submodular Maximization},
+  author={Zhu, Yanhui and Basu, Samik and Pavan, A},
+  booktitle={Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+  pages={3537--3548},
+  year={2024}
+}
+```
